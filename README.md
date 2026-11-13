@@ -1,83 +1,36 @@
-
-   <div align="center">
+## Hi, I'm @debug-null 👋
  
-   # 👋 Hi, I'm @debug-null
+   ![状态](https://img.shields.io/badge/状态-debug%20中-orange?style=flat-square)
+   ![心情](https://img.shields.io/badge/心情-null-lightgrey?style=flat-square)
+   ![咖啡存量](https://img.shields.io/badge/咖啡存量-不足-red?style=flat-square)
  
-   **debug 了一整晚，最后发现 null 是我自己赋的**
- 
-   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=while(alive)+%7B+coffee()%3B+debug()%3B+%7D;It's+not+a+bu
-   g%2C+it's+a+feature.;%E5%9C%A8%E6%88%91%E6%9C%BA%E5%99%A8%E4%B8%8A%E8%83%BD%E8%B7%91%E5%95%8A%EF%BC%9F" alt="Typing SVG" />
- 
-   </div>
- 
-   ---
- 
-   ## 🧬 源码级自我介绍
+   > debug 了一整晚，最后发现 null 是我自己赋的。
  
    ```ts
-   export default class Me extends NullPointerException {
-     readonly name = "debug-null";
-     // ID 的由来：console.log(我的变量) → null
-     // 后来想通了，被打印的不是变量，是我
- 
-     skills = {
-       精通: ["Ctrl + C", "Ctrl + V"],
-       熟练: ["写 bug", "写出复现不了的 bug", "把 bug 包装成 feature"],
-       了解: ["修 bug（偶尔）", "写注释（几乎不）"],
-     };
+   class Me extends NullPointerException {
+     擅长 = ["写 bug", "复现不了的 bug", "在我电脑上能跑"];
+     正在学 = "怎么把 bug 写成 feature";
+     求合作 = "一起背锅的那种";
  
      daily() {
        try {
-         this.coffee();
-         this.work();
-         this.coffee();
+         coffee();
+         work();
        } catch (e: ProductionIncident) {
-         this.panic();
-         git.push({ force: true }); // 🔥 先救自己
+         panic();
+         git.push({ force: true }); // 🔥
        } finally {
-         return null; // 如你所见
+         return null;
        }
      }
    }
    ```
  
-   ## 🎯 人生格言
+   - 👀 对「这段代码昨晚明明能跑」这一世界未解之谜充满好奇
+   - 🌱 正在深入学习《Stack Overflow 复制粘贴工程学》
+   - 💞️ 寻求合作：需求是模糊的，deadline 是明天的，锅是一起背的
+   - 📫 联系我：在 issue 里 `throw new Error("hello")`，我会 `catch` 到你
  
-   > 先帝创业未半而中道崩殂，
-   > 今天下三分，debug 未完，
-   > 此诚危急存亡之秋也。
+   ---
  
-   —— 《出师表 · 程序员版》
- 
-   ## 📊 战损统计
- 
-   <div align="center">
-     <img height="170" src="https://github-readme-stats.vercel.app/api?username=debug-null&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-     <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=debug-null&layout=compact&theme=github_dark&hide_border=true" />
-   </div>
- 
-   <div align="center">
-     <img src="https://github-readme-streak-stats.herokuapp.com/?user=debug-null&theme=github-dark-blue&hide_border=true" />
-   </div>
- 
-   ## 🐍 我的代码都喂了这条蛇
- 
-   <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/debug-null/debug-null/output/github-contribution-grid-snake-dark.svg" />
-     <img alt="github-snake" src="https://raw.githubusercontent.com/debug-null/debug-null/output/github-contribution-grid-snake.svg" />
-   </picture>
- 
-   ## 📫 联系我
- 
-   - 🐛 发现 bug：别找我，可能就是我写的
-   - 💬 交流技术：在 issue 里 `throw new Error("hello")` 即可
-   - ☕ 请我喝咖啡：`navigator.sendBeacon("/api/coffee", { sugar: 0 })`
- 
-   <div align="center">
- 
-   <img src="https://komarev.com/ghpvc/?username=debug-null&label=被+debug+次数&color=58a6ff&style=flat" />
- 
-   **`console.log("都看到这儿了，奖励你一个 🐛")`**
- 
-   </div>
- 
+   `console.log("都看到这儿了，奖励你一个 🐛")`
